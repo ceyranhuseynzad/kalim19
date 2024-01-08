@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  font-size: 25px;
+  padding: 30px 30px;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+nav {
+  background-image: url(https://demo.kaliumtheme.com/travel/wp-content/uploads/2017/06/aixenprovence.jpg);
+}
+
+.contanier {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+}
+
+.text {
+  color: aliceblue;
+  font-size: 30px;
+  padding: 150px 45%;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background: none;
+  color: aliceblue;
+  border: 3px solid rgb(36, 34, 34);
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.cards .card {
+  width: 200px;
+  height: 200px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.images img {
+  width: 97%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.txt {
+  width: 500px;
+  height: 500px;
+  padding: 200px 0px;
+}
+
+.a {
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
