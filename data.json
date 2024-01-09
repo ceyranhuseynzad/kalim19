@@ -1,0 +1,64 @@
+{
+  "all": [
+    {
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud hoahsOOOOOOo",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "id": 2
+    },
+    {
+      "id": 5,
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 6,
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 7,
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 8,
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    }
+    
+  ],
+  "favorite": [
+    {
+      "id": 1,
+      "img": "assets/img/ss-icon-1.png.webp",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 2,
+      "img": "assets/img/ss-icon-2.png.webp",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 4,
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 6,
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png",
+      "name": "Cloud Hosting",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 7
+    }
+  ]
+}
