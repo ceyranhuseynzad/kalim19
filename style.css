@@ -26,7 +26,7 @@ ul {
 }
 
 nav {
-  background-image: url(https://demo.kaliumtheme.com/travel/wp-content/uploads/2017/06/aixenprovence.jpg);
+  background-image: url(https://demo.kaliumtheme.com/travel/wp-content/uploads/2017/06/dubrovnik-1.jpg);
 }
 
 .contanier {
@@ -97,4 +97,252 @@ button {
 .a {
   display: flex;
   justify-content: space-around;
+}
+
+#news .news {
+  padding: 100px 0;
+}
+#news .news .h {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 50%;
+  margin: auto;
+}
+#news .news .h h3 {
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 60px;
+  color: rgb(73, 73, 73);
+}
+#news .news .h h3:after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  bottom: -20px;
+  position: absolute;
+  left: calc((100% - 100px) / 2);
+}
+#news .news .h p {
+  color: gray;
+  font-size: 20px;
+}
+#news .news .news-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+#news .news .news-items .item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 350px;
+}
+#news .news .news-items .item .img {
+  overflow: hidden;
+}
+#news .news .news-items .item .img img {
+  transition: all 0.5s ease;
+}
+#news .news .news-items .item .img:hover img {
+  transform: scale(1.1);
+}
+#news .news .news-items .item .i {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#news .news .news-items .item .i .n1 {
+  font-size: 20px;
+  color: rgb(66, 65, 65);
+}
+#news .news .news-items .item .i .i1 {
+  color: rgb(124, 123, 123);
+  font-size: 17px;
+}
+
+#form {
+  padding: 200px 0;
+}
+#form .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#form .form .form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#form .form .form-content input[type=text] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+#form .form .form-content .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 60px;
+  margin: auto;
+  position: relative;
+  border: 1px solid #000;
+  padding: 20px;
+}
+#form .form .form-content .img .pimg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+#form .form .form-content .img .plas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #737373;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+#form .form .form-content .img input[type=file] {
+  display: none;
+}
+#form .form .form-content button {
+  margin-top: 50px;
+  width: 200px;
+  padding: 10px 20px;
+  background-color: #15cb61;
+  border: none;
+  color: white;
+  font-size: 25px;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  #form .form .content {
+    max-width: 100%;
+  }
+}
+.b {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.71);
+}
+.b .close {
+  position: absolute;
+  font-size: 40px;
+  right: 20px;
+  top: 30px;
+  color: white;
+}
+
+#service .service {
+  padding: 100px 0;
+}
+#service .service .h {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 50%;
+  margin: auto;
+}
+#service .service .h h3 {
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 60px;
+}
+#service .service .h h3:after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  bottom: -20px;
+  position: absolute;
+  left: calc((100% - 100px) / 2);
+}
+#service .service .h p {
+  color: gray;
+  font-size: 20px;
+}
+#service .service .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#service .service .btn button {
+  width: 200px;
+  padding: 5px 20px;
+  background-color: #fc5a1a;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+#service .service .s-it {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+#service .service .s-it .item {
+  max-width: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+#service .service .s-it .item button {
+  border: none;
+  color: antiquewhite;
+  width: 50px;
+  height: 40px;
+  background-color: #15b3cb;
+}
+#service .service .s-it .item .img {
+  height: 80px;
+}
+#service .service .s-it .item .i {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#service .service .s-it .item .i p {
+  color: gray;
+}
+#service .service .s-it .item .i h4 {
+  font-size: 20px;
+  color: rgb(63, 62, 62);
+}
+#service .service .s-it .item .i button {
+  width: 200px;
+  padding: 5px 20px;
+  background-color: #fc5a1a;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

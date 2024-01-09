@@ -17,7 +17,7 @@ m.addEventListener("click", () => {
 let navbar = document.querySelector("nav")
 window.addEventListener("scroll", () => {
     if (window.scrollY > 300) {
-        navbar.style.backgroundColor = "white"
+        navbar.style.backgroundColor = "gray"
     } 
 })
 let card = document.querySelector(".s-it")
