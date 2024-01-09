@@ -26,7 +26,7 @@ ul {
 }
 
 nav {
-  background-image: url(https://demo.kaliumtheme.com/travel/wp-content/uploads/2017/06/dubrovnik-1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://demo.kaliumtheme.com/travel/wp-content/uploads/2017/06/dubrovnik-1.jpg);
 }
 
 .contanier {
@@ -50,6 +50,13 @@ img {
   color: aliceblue;
   font-size: 30px;
   padding: 150px 45%;
+  position: relative;
+}
+.text .text1 {
+  width: 1px;
+  height: 100px;
+  background-color: #d8d0d0;
+  margin-left: 100px;
 }
 
 .nav2 {
@@ -60,10 +67,11 @@ img {
 button {
   background: none;
   color: aliceblue;
-  border: 3px solid rgb(36, 34, 34);
+  border: 3px solid rgb(243, 227, 227);
   width: 250px;
   height: 50px;
   font-size: 20px;
+  align-items: center;
 }
 
 .cards {
@@ -345,4 +353,22 @@ button {
   color: white;
   font-size: 20px;
   margin: auto;
+}
+
+.footh {
+  display: flex;
+  justify-content: space-around;
+}
+.footh .a {
+  padding: 10px;
+}
+
+.foother {
+  display: flex;
+  justify-content: space-around;
+}
+.foother .icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
